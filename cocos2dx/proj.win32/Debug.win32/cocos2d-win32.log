@@ -1,0 +1,26 @@
+﻿Build started 04.02.2013 1:12:00.
+     1>Project "e:\tmp\PE\cocos2dx\proj.win32\cocos2d-win32.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug.win32\libcocos2d.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       PreLinkEvent:
+         if not exist "E:\tmp\PE\Debug.win32\" mkdir "E:\tmp\PE\Debug.win32\"
+         xcopy /Y /Q "E:\tmp\PE\cocos2dx\platform\third_party\win32\libraries\*.*" "E:\tmp\PE\Debug.win32\"
+         
+         :VCEnd
+         14 File(s) copied
+       Link:
+         All outputs are up-to-date.
+       Manifest:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "Debug.win32\libcocos2d.unsuccessfulbuild".
+         Touching "Debug.win32\libcocos2d.lastbuildstate".
+     1>Done Building Project "e:\tmp\PE\cocos2dx\proj.win32\cocos2d-win32.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.01
